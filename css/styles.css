@@ -1,0 +1,129 @@
+body {
+  font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+  background-color: var(white);
+  color: var(--slate);
+
+  gap: 24px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+.header {
+  color: #2e2f42;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #2e2f42;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: bold;
+}
+
+.web {
+  color: #4d5ae5;
+  font-family: "Raleway";
+  font-size: bold;
+}
+
+.menu {
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-between;
+  text-align: center;
+  justify-content: space-between;
+  color: #2e2f42;
+}
+.header .nav .menu .link-studio:hover,
+.header .nav .menu .link-studio:focus {
+  color: #404bbf;
+}
+.header .nav .menu .link-studio:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+.header .nav .menu .link-studio {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.header .nav .menu .link {
+  text-decoration: none;
+  color: #2e2f42;
+}
+.header .nav .menu .link:hover,
+.header .nav .menu .link:focus {
+  text-decoration: none;
+  color: #404bbf;
+}
+
+.header .address > ul {
+  list-style: none;
+  text-align: right;
+}
+.header .address .mail {
+  color: #434455;
+}
+.header .address .tel {
+  color: #434455;
+}
+.header .address .mail:hover,
+.header .address .mail:focus {
+  color: #404bbf;
+}
+.header .address .tel:hover,
+.header .address .tel:focus {
+  color: #404bbf;
+}
+
+.first {
+  width: 1440px;
+  height: 600px;
+  background-color: #2e2f42;
+  text-align: center;
+}
+.first > h1 {
+  color: white;
+}
+
+.first .button {
+  background-color: #4d5ae5;
+  color: white;
+  cursor: pointer;
+  width: 169px;
+  height: 56px;
+}
+
+.first .button:hover {
+  background-color: #404bbf;
+}
+.first .button:active {
+  background-color: #404bbf;
+}
+
+.second .list {
+  list-style: none;
+}
+
+.third {
+  background-color: #f4f4fd;
+}
+
+.third .list {
+  list-style: none;
+}
+
+.four .list {
+  list-style: none;
+}
+
+.footer {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+}
