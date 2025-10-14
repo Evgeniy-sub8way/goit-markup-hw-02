@@ -102,7 +102,8 @@ body {
   height: 56px;
 }
 
-.first .button:hover {
+.first .button:hover,
+.first .button:focus {
   background-color: #404bbf;
 }
 .first .button:active {
@@ -130,4 +131,20 @@ body {
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
+}
+
+.footer .logof {
+  color: #f4f4fd;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: bold;
+}
+
+.footer .webf {
+  color: #4d5ae5;
+  font-family: "Raleway";
+  text-decoration: none;
+  letter-spacing: 3%;
+  line-height: 21px;
 }
