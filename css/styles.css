@@ -29,6 +29,10 @@ body {
   color: #4d5ae5;
   font-family: "Raleway";
   font-size: bold;
+  text-shadow: 0px 4px 4px black;
+  letter-spacing: 3%;
+  line-height: 21px;
+  -webkit-text-stroke: 1px black;
 }
 
 .menu {
