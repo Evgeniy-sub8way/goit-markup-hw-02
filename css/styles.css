@@ -17,7 +17,7 @@ body {
   color: #4d5ae5;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -33,50 +33,34 @@ body {
 }
 
 .header .menu {
-  font-weight: 500;
   list-style: none;
-  text-decoration: none;
-  color: #2e2f42;
 }
-.header .nav .menu .link-studio:hover,
-.header .nav .menu .link-studio:focus {
+.header .menu .link {
+  text-decoration: none;
+  color: #434455;
+}
+
+.header .nav .menu .link:hover,
+.header .nav .menu .link:focus {
   color: #404bbf;
 }
-.header .nav .menu .link-studio:active {
+.header .nav .menu .link:active {
   color: #404bbf;
   text-decoration: underline;
 }
-.header .nav .menu .link-studio {
-  color: #2e2f42;
-  text-decoration: none;
-}
-.header .nav .menu .link {
-  text-decoration: none;
-  color: #2e2f42;
-}
-.header .nav .menu .link:hover,
-.header .nav .menu .link:focus {
-  text-decoration: none;
-  color: #404bbf;
-}
 
-.header .address > ul {
+.header .address .list {
   list-style: none;
   text-align: right;
   font-style: normal;
 }
-.header .address .mail {
+
+.header .address .list .link {
   color: #434455;
+  text-decoration: none;
 }
-.header .address .tel {
-  color: #434455;
-}
-.header .address .mail:hover,
-.header .address .mail:focus {
-  color: #404bbf;
-}
-.header .address .tel:hover,
-.header .address .tel:focus {
+.header .address .list .mail:hover,
+.header .address .list .mail:focus {
   color: #404bbf;
 }
 
@@ -112,11 +96,12 @@ body {
   list-style: none;
 }
 
-.second .list .title {
+.second .list .titl {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .second .list .parf {
@@ -129,6 +114,7 @@ body {
 
 .third .list {
   list-style: none;
+  color: #ffffff;
 }
 
 .third .title {
@@ -137,6 +123,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .third .list .titl {
@@ -194,7 +181,7 @@ body {
 
 .footer .studiof {
   color: #f4f4fd;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
   letter-spacing: 3%;
   line-height: 21px;
