@@ -38,7 +38,7 @@ body {
 .header .menu .link {
   text-decoration: none;
   color: #2e2f42;
-  font-weight: link;
+  font-weight: 500;
 }
 
 .header .nav .menu .link:hover,
@@ -48,6 +48,10 @@ body {
 .header .nav .menu .link:active {
   color: #404bbf;
   text-decoration: underline;
+}
+
+.header .address {
+  font-style: normal;
 }
 
 .header .address .list {
