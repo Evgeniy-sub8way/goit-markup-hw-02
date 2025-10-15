@@ -113,7 +113,7 @@ body {
   background-color: #f4f4fd;
 }
 
-.third .list {
+.third .list .team-card {
   list-style: none;
   background-color: #ffffff;
 }
@@ -173,7 +173,7 @@ body {
   color: #4d5ae5;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
