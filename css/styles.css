@@ -37,7 +37,8 @@ body {
 }
 .header .menu .link {
   text-decoration: none;
-  color: #434455;
+  color: #2e2f42;
+  font-weight: link;
 }
 
 .header .nav .menu .link:hover,
@@ -59,8 +60,8 @@ body {
   color: #434455;
   text-decoration: none;
 }
-.header .address .list .mail:hover,
-.header .address .list .mail:focus {
+.header .address .list .link:hover,
+.header .address .list .link:focus {
   color: #404bbf;
 }
 
@@ -114,7 +115,7 @@ body {
 
 .third .list {
   list-style: none;
-  color: #ffffff;
+  background-color: #ffffff;
 }
 
 .third .title {
